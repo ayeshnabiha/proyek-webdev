@@ -1,36 +1,52 @@
-/* @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  background: linear-gradient(to bottom right, #b3d9ff, #e6f2ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.a {
+  color :#000066;
+  font-size : 24px; 
+  font-weight : bold;
+  text-align : left;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
-
-.a{
-  font-size : 50px;
-  font-weight : bold;
-  text-align : center;
+h6 {
+  margin: 5px;
 }
 
-body{
-  background-color : #90D5FF;
+.navbar {
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
 }
+
+.navbar a {
+  color: #264e7c;
+}
+
+.navbar a:hover {
+  color : #9eb3c7;
+}
+
