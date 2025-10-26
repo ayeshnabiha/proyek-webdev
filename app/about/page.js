@@ -1,10 +1,13 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export default function Home(){
     return(
         <div>
             <nav className="navbar">
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/project">Project</a>
+                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
+                <Link href="/project">Project</Link>
             </nav>
 
             <div className="container">
@@ -21,10 +24,10 @@ export default function Home(){
                 </div>
 
                 <div className="foto">
-                        <img src="/main.png" alt="about page" width="180px" height="240px"/>
-                        <a href="http:/instagram.com/ayeshnabiha/">Instagram</a>
-                        <a href="https://line.me/ti/p/ayeshnabiha">Line</a>
-                        <a href="mailto/ayeshnabiha@gmailcom">Email</a>
+                        <Image src="/main.png" alt="about page" width="180" height="240" style={{borderRadius: 35}}/>
+                        <Link href="http:/instagram.com/ayeshnabiha/">Instagram</Link>
+                        <Link href="https://line.me/ti/p/ayeshnabiha">Line</Link>
+                        <Link href="mailto/ayeshnabiha@gmailcom">Email</Link>
 
                 </div>
             </div>

@@ -5,15 +5,16 @@ export default function Home(){
     <div>
       
       <nav className="navbar">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/project">Project</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/project">Project</Link>
       </nav>
     
       
       <div className="a">
-              Hi! I‘m Ayesha <br/>
-              and. . . I do Design :D<h6>(a little bit) </h6>
+          Hi! I‘m Ayesha <br/>
+          and. . . I do Design :D
+          <h6>(a little bit) </h6>
       </div>
 
     </div>

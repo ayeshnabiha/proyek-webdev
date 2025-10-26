@@ -54,12 +54,6 @@ body {
   transform: translateY(-5px);
 }
 
-.foto img {
-  border-radius: 35px;
-  box-shadow: 0 4px 8px rgba (0, 0, 0, 0.2);
-  object-fit: cover;
-}
-
 .foto a {
   margin: 5px;
   font-size: 13px;
