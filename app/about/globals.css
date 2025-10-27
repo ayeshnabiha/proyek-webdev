@@ -73,3 +73,15 @@ body {
     transform: translateY(0);
   }
 }
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
