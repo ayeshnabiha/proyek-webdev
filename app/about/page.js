@@ -24,10 +24,10 @@ export default function Home(){
                 </div>
 
                 <div className="foto">
-                        <Image src="/main.png" alt="about page" width="180" height="240" style={{borderRadius: 35}}/>
-                        <Link href="http:/instagram.com/ayeshnabiha/">Instagram</Link>
+                        <Image src="/main.png" alt="about page" width="150" height="200" style={{borderRadius: 35}}/>
+                        <Link href="https:/instagram.com/ayeshnabiha/">Instagram</Link>
                         <Link href="https://line.me/ti/p/ayeshnabiha">Line</Link>
-                        <Link href="mailto/ayeshnabiha@gmailcom">Email</Link>
+                        <Link href="https://mailto:ayeshnabiha@gmail.com">Email</Link>
 
                 </div>
             </div>

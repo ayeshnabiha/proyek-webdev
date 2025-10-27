@@ -67,3 +67,10 @@ body {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 15px;
+    border-radius: 15px; 
+  }
+}
