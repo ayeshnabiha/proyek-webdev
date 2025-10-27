@@ -26,8 +26,8 @@ export default function Home(){
                 <div className="foto">
                         <Image src="/main.png" alt="about page" width="150" height="200" style={{borderRadius: 35}}/>
                         <a href="https://instagram.com/ayeshnabiha" target="_blank" rel="noopener noreferrer">Instagram</a>
-                        <Link href="https://line.me/ti/p/ayeshnabiha">Line</Link>
-                        <Link href="https://mailto:ayeshnabiha@gmail.com">Email</Link>
+                        <a href="https://line.me/ti/p/ayeshnabiha" target="_blank" rel="noopener noreferrer">Line</a>
+                        <a href="https://mailto:ayeshnabiha@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
 
                 </div>
             </div>
