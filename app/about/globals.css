@@ -82,10 +82,12 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    font-size: 10px;
+    font-size: 8px;
+    
   }
   .foto {
-    width:100%; 
+    width:120px;
+    height: 160px; 
     border-radius: 10px;
   }
 }
