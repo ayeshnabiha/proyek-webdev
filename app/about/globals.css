@@ -101,11 +101,11 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    font-size: 12px;
+    font-size: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 50px;
+    padding: 10px 30px;
     max-width: 800px;
     width: 80%;
     gap : 20px;
