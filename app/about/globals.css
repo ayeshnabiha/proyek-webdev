@@ -82,7 +82,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    font-size: 8px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
